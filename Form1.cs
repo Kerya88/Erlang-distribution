@@ -142,18 +142,6 @@ namespace WindowsFormsApplication16
 
             textBoxRes.Text = pirson.ToString();
         }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void label_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
         private void studentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Вариант 6, Кубанов К.В., группа 6302");
@@ -162,11 +150,6 @@ namespace WindowsFormsApplication16
         {
             MessageBox.Show("Получить на ЭВМ последовательность из N=1000 реализаций случайной величины X, распределенной по закону Эрланга. " +
                 "Контроль качества провести для n = 12. Уровень значимости - 0.025.");
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

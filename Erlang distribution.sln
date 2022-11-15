@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1.csproj", "{68DA5552-3025-4435-876A-14A7D61971DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erlang distribution", "Erlang distribution.csproj", "{68DA5552-3025-4435-876A-14A7D61971DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

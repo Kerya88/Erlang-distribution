@@ -43,8 +43,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.taskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.StudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TaskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBoxRes = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -78,7 +78,6 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(171, 196);
             this.listBox1.TabIndex = 2;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ButtonOk
             // 
@@ -137,7 +136,6 @@
             this.label1.Size = new System.Drawing.Size(97, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "Enter Lambda :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -159,27 +157,27 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.studentToolStripMenuItem,
-            this.taskToolStripMenuItem});
+            this.StudentToolStripMenuItem,
+            this.TaskToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1316, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1316, 28);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // studentToolStripMenuItem
+            // StudentToolStripMenuItem
             // 
-            this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
-            this.studentToolStripMenuItem.Text = "About";
-            this.studentToolStripMenuItem.Click += new System.EventHandler(this.studentToolStripMenuItem_Click);
+            this.StudentToolStripMenuItem.Name = "StudentToolStripMenuItem";
+            this.StudentToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.StudentToolStripMenuItem.Text = "About";
+            this.StudentToolStripMenuItem.Click += new System.EventHandler(this.studentToolStripMenuItem_Click);
             // 
-            // taskToolStripMenuItem
+            // TaskToolStripMenuItem
             // 
-            this.taskToolStripMenuItem.Name = "taskToolStripMenuItem";
-            this.taskToolStripMenuItem.Size = new System.Drawing.Size(50, 26);
-            this.taskToolStripMenuItem.Text = "Task";
-            this.taskToolStripMenuItem.Click += new System.EventHandler(this.taskToolStripMenuItem_Click_1);
+            this.TaskToolStripMenuItem.Name = "TaskToolStripMenuItem";
+            this.TaskToolStripMenuItem.Size = new System.Drawing.Size(50, 24);
+            this.TaskToolStripMenuItem.Text = "Task";
+            this.TaskToolStripMenuItem.Click += new System.EventHandler(this.taskToolStripMenuItem_Click_1);
             // 
             // textBoxRes
             // 
@@ -263,10 +261,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem studentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem StudentToolStripMenuItem;
         private System.Windows.Forms.TextBox textBoxRes;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ToolStripMenuItem taskToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TaskToolStripMenuItem;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
     }
